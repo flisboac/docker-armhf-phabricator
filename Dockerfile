@@ -2,7 +2,7 @@
 # Docker image for running https://github.com/phacility/phabricator
 #
 
-FROM    FROM mazzolino/armhf-ubuntu:trusty
+FROM        mazzolino/armhf-ubuntu:trusty
 MAINTAINER  Flavio Lisboa <flisboa.costa@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
