@@ -2,8 +2,8 @@
 # Docker image for running https://github.com/phacility/phabricator
 #
 
-FROM    debian:jessie
-MAINTAINER  Yvonnick Esnault <yvonnick@esnau.lt>
+FROM    FROM mazzolino/armhf-ubuntu:trusty
+MAINTAINER  Flavio Lisboa <flisboa.costa@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
